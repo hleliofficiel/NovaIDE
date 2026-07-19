@@ -1,6 +1,6 @@
 # Crowdin Contributors
 
-Thanks to all these people, AndroidIDE has been translated into multiple languages!
+Thanks to all these people, NovaIDE has been translated into multiple languages!
 
 <!-- CROWDIN-CONTRIBUTORS-START -->
 <table>
@@ -159,5 +159,5 @@ Thanks to all these people, AndroidIDE has been translated into multiple languag
       </td>
     </tr>
   </tbody>
-</table><a href="https://crowdin.com/project/androidide" target="_blank">Translate in Crowdin 🚀</a>
+</table><a href="https://crowdin.com/project/novaide" target="_blank">Translate in Crowdin 🚀</a>
 <!-- CROWDIN-CONTRIBUTORS-END -->

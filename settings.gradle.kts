@@ -103,7 +103,7 @@ FDroidConfig.load(rootDir)
 
 if (FDroidConfig.hasRead && FDroidConfig.isFDroidBuild) {
   gradle.rootProject {
-    val regex = Regex("^v\\d+\\.?\\d+\\.?\\d+-\\w+")
+    val regex = Regex("^v\\d+\\.?\\d+\\.?\\d+(-\\w+)?")
 
     val simpleVersion = regex.find(FDroidConfig.fDroidVersionName!!)?.value
       ?: throw IllegalArgumentException("Invalid version '${FDroidConfig.fDroidVersionName}. Version name must have semantic version format.'")
@@ -116,7 +116,7 @@ if (FDroidConfig.hasRead && FDroidConfig.isFDroidBuild) {
   }
 }
 
-rootProject.name = "AndroidIDE"
+rootProject.name = "NovaIDE"
 
 // keep this sorted alphabetically
 include(
