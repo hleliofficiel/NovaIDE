@@ -17,10 +17,10 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools">
   <!-- Base application theme. -->
-  <style name="Base.Theme.AndroidIDE" parent="Theme.Material3.DayNight">
+  <style name="Base.Theme.NovaIDE" parent="Theme.Material3.DayNight">
     <!-- Customize your light theme here. -->
     <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
   </style>
 
-  <style name="Theme.AndroidIDE" parent="Base.Theme.AndroidIDE" />
+  <style name="Theme.NovaIDE" parent="Base.Theme.NovaIDE" />
 </resources>
