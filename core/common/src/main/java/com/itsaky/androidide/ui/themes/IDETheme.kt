@@ -35,13 +35,13 @@ enum class IDETheme(
   /**
    * Blue Wave theme.
    */
-  BLUE_WAVE(R.style.Theme_AndroidIDE_BlueWave, R.style.Theme_AndroidIDE_BlueWave_Dark,
+  BLUE_WAVE(R.style.Theme_NovaIDE_BlueWave, R.style.Theme_NovaIDE_BlueWave_Dark,
     R.string.theme_blue_wave),
 
   /**
    * Sunny Glow theme.
    */
-  SUNNY_GLOW(R.style.Theme_AndroidIDE_SunnyGlow, R.style.Theme_AndroidIDE_SunnyGlow_Dark,
+  SUNNY_GLOW(R.style.Theme_NovaIDE_SunnyGlow, R.style.Theme_NovaIDE_SunnyGlow_Dark,
     R.string.theme_sunny_glow),
 
   /**
